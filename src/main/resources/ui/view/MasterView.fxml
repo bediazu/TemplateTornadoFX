@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: yellow;" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton onAction="#switchScreen1" text="Switch to Screen 1" />
+            <JFXButton onAction="#switchScreen2" text="Switch to Screen 2" />
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
