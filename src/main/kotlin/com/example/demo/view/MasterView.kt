@@ -1,7 +1,6 @@
 package com.example.demo.view
 
 import com.example.demo.app.Styles
-import com.example.demo.controller.MasterController
 import javafx.scene.layout.AnchorPane
 import javafx.scene.layout.Border
 import javafx.scene.layout.BorderPane
